@@ -108,8 +108,7 @@ genai-10step-prompt-framework/
 └── templates/
     ├── gpt-10step-template.md
     ├── claude-10step-template.md
-    ├── cursor-10step-template.mdc
-    └── notion-10step-template.md
+    └──cursor-10step-template.mdc
 ```
 
 ⸻
