@@ -64,7 +64,6 @@ GPT / Claude / Cursor 向けの即利用版を /templates/ に収録。
 | gpt-10step-template.md | ChatGPT用 | フル構造・最も再現性高い |
 | claude-10step-template.md | Claude用 | 出力暴走防止・トークン制限あり |
 | cursor-10step-template.mdc | Cursor | STRUCTUREモード対応、自動整列可能 |
-| notion-10step-template.md | Notion AI | 単発整列・メモ整理用（10段階簡略版） |
 ```
 
 ⸻
