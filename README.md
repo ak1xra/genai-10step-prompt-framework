@@ -2,17 +2,17 @@
 
 # 🧩 GenAI Prompt Template — 10段階構造テンプレ集
 
-「平文を整列せよ。」
-コンテキストエンジニアリングを最短で学び、実務で使うためのプロンプトテンプレート集。
+「平文を整列せよ。」<br>
+コンテキストエンジニアリングを最短で学び、実務で使うためのプロンプトテンプレート集。<br>
 GPT / Claude / Cursor / Notion 向けの即利用版を /templates/ に収録。
 
 ⸻
 
 ## 🚀 Quick Start
 
-1️⃣ このリポジトリを使う
-	•	Forkするか、右上の 「Use this template」 をクリックして複製。
-	•	目的に応じて /templates/ 内のテンプレートを選ぶ。
+1️⃣ このリポジトリを使う<br>
+	•	Forkするか、右上の 「Use this template」 をクリックして複製。<br>
+	•	目的に応じて /templates/ 内のテンプレートを選ぶ。<br>
 
 ```
 /templates/
@@ -52,7 +52,7 @@ GPT / Claude / Cursor / Notion 向けの即利用版を /templates/ に収録。
 | 10 | Next Action | 実行タスクを提示 |
 ```
 
-この10段階を踏むことで、
+この10段階を踏むことで、<br>
 「プロンプト＝指示」から「プロンプト＝設計」へと進化する。
 
 ⸻
@@ -79,8 +79,8 @@ GPT / Claude / Cursor / Notion 向けの即利用版を /templates/ に収録。
 
 ## ✨ Author
 
-Akira Hayakawa (早川 明良)
-	•	[GitHub](https://github.com/ak1ra)￼
+Akira Hayakawa (早川 明良)<br>
+	•	[GitHub](https://github.com/ak1ra)￼<br>
 	•	[Notion Portfolio](https://www.notion.com/ja/@ak1ra)￼
 
 ⸻
