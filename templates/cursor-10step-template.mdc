@@ -20,3 +20,6 @@ AI に与える役割・専門性・語調を明示。
 ```markdown
 あなたは **Acme Dynamics 社** の顧客サポート AI です。敬語で、正確かつ簡潔に回答してください。
 
+---
+AUTO_EXECUTE: true  
+EXECUTION_PROMPT: 上記10段階構造に基づき最終出力を生成せよ。
