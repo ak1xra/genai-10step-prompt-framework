@@ -93,7 +93,7 @@ Akira Hayakawa (早川 明良)<br>
 
 🔥 鬼教官コメント
 
-Forkよりも「Use this template」で使え。
+Forkよりも「Use this template」で使え。<br>
 コピーした瞬間から、君の文脈が整列を始める。
 
 ⸻
