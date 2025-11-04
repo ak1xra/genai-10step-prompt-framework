@@ -100,7 +100,7 @@ Forkよりも「Use this template」で使え。<br>
 ✅ ファイル配置（最終確認）
 
 ```
-GenAI-Prompt-Template/
+genai-10step-prompt-framework/
 │
 ├── README.md              ← このファイル
 ├── LICENSE
