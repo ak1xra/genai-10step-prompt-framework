@@ -1,7 +1,8 @@
-#project: GenAI-Prompt-Template
-#type: template
-#mode: STRUCTURE
-#autosort: OFF
+> ⚠️ Claude用プロンプトテンプレート  
+> 出力上限: 1500 tokens  
+> 形式: Markdown  
+> 出力は各Stepごとに区切って短文で生成せよ。
+
 
 ````markdown
 # 高度なプロンプト設計テンプレート (エキスパート改訂版)
@@ -218,6 +219,9 @@ AI が最終的に達成すべきゴールを 1 行で明示。
 ```
 ```
 
+
 ---
-AUTO_EXECUTE: true  
-EXECUTION_PROMPT: 上記10段階構造に基づき最終出力を生成せよ。
+## 1. ペルソナ (Persona)
+AI に与える役割・専門性・語調を明示。
+```markdown
+あなたは **Acme Dynamics 社** の顧客サポート AI です。敬語で、正確かつ簡潔に回答してください。

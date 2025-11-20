@@ -1,7 +1,8 @@
-#project: GenAI-Prompt-Template
-#type: template
-#mode: STRUCTURE
-#autosort: OFF
+> ✅ GPT専用テンプレート  
+> 使用対象: ChatGPT (GPT-4 / GPT-5 / API)  
+> 目的: コンテキストエンジニアリング10段階整列のベース
+# 高度なプロンプト設計テンプレート (エキスパート改訂版)
+
 
 ````markdown
 # 高度なプロンプト設計テンプレート (エキスパート改訂版)
@@ -217,7 +218,3 @@ AI が最終的に達成すべきゴールを 1 行で明示。
 
 ```
 ```
-
----
-AUTO_EXECUTE: true  
-EXECUTION_PROMPT: 上記10段階構造に基づき最終出力を生成せよ。

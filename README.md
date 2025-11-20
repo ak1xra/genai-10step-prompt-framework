@@ -1,77 +1,113 @@
-# GenAI-Prompt-Template
+⸻
 
-大規模言語モデル（LLM）から **安定的かつ高品質** な応答を得るための「10 段構成プロンプトテンプレート」を提供します。
-メタプロンプト＋RAG（検索拡張生成）を組み込み、ユーザープロファイル・リスク評価・ツール呼び出し優先度などを宣言的に制御できるのが特長です。
+# 🧩 GenAI Prompt Template — 10段階構造テンプレ集
 
----
+「平文を整列せよ。」<br>
+コンテキストエンジニアリングを最短で学び、実務で使うためのプロンプトテンプレート集。<br>
+GPT / Claude / Cursor 向けの即利用版を /templates/ に収録。
 
-## 特長
+⸻
 
-| 機能                | 説明                                                                                                                           |
-| ----------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| **10 段テンプレート**    | Persona → Context → Task → Instructions → Output → Constraints → Examples → Evaluation → Cross-Model Tips → GitHub RAG の拡張構成 |
-| **メタプロンプト層**      | モデル自身が最適プロンプトをセルフ生成し、RAG 検索と組み合わせて回答を安定化                                                                                     |
-| **ユーザープロファイル変数**  | 利用者の熟練度・感情トーンに応じて出力スタイルを自動調整                                                                                                 |
-| **ツール呼び出しスロット**   | 外部 API（在庫管理 / 財務データ / GitHub など）の優先度とフォールバック順を YAML で宣言                                                                      |
-| **リスク適応型ガードレール**  | 出力前にリスクスコアを算出し、安全閾値超過時は自動でフォールバック回答へ切替え                                                                                      |
-| **GitHub RAG 対応** | リポジトリを丸ごと知識ベース化し、コード検索・設計理解・影響分析・ライセンス確認を対話形式で実現                                                                             |
+## 🚀 Quick Start
 
----
-
-## できること（具体例）
-
-1. **EC 顧客サポート**
-   FAQ＋在庫 API を連携し、「在庫あり？」「返品方法は？」に即時回答。
-2. **社内ナレッジチャット**
-   社規・手順書を安全引用し、「最新の旅費精算フローは？」に正確回答。
-3. **医療問診ボット**
-   症状チェックと危険度分類を行い、緊急受診が必要かどうかを案内。
-4. **戦略レポート自動生成**
-   市場統計 API や財務データを取り込み、SWOT/PEST 分析から推奨戦略を提示。
-5. **GitHub リポジトリ RAG**
-   コードや README をベクトル化し、
-
-   * 「この関数の責務は？」→ 該当コード＋説明
-   * 「GPL ライブラリ含む？」→ リスク箇所を一覧
-   * 新人オンボーディング向けにアーキテクチャ図を生成
-
----
-
-## ディレクトリ構成（準備中）
+1️⃣ このリポジトリを使う<br>
+	•	Forkするか、右上の 「Use this template」 をクリックして複製。<br>
+	•	目的に応じて /templates/ 内のテンプレートを選ぶ。<br>
 
 ```
-GenAI-Prompt-Template/
-├─ prompt_template_v2.md   # 10 段テンプレート本体
-├─ examples/               # Few-shot 例
-│   ├─ strategy_plan.md
-│   ├─ system_design.md
-│   └─ negotiation_scenarios.md
-├─ docs/                   # 詳細ドキュメント
-└─ LICENSE
+/templates/
+├── gpt-10step-template.md       # ChatGPT用・完全構造化版
+├── claude-10step-template.md    # Claude用・出力制御版
+└── cursor-10step-template.mdc   # Cursor用・STRUCTUREモード
 ```
 
----
+⸻
 
-## クイックスタート
+## 2️⃣ 使い方（GPT例）
 
-```bash
-# 1. テンプレートをコピー
-cp prompt_template_v2.md my_prompt.md
+1. ChatGPTを開く
+2. 「10段階テンプレをロード」として以下を貼る
+3. 平文を下に入力する
 
-# 2. Persona / Context / Task などを自分の用途に合わせて編集
-vim my_prompt.md
+※推奨モデル: GPT-4 / GPT-5
+※ClaudeやCursorでは、該当ファイルをそのまま読み込めばOK。
 
-# 3. LLM へ投入
-# （例）openai api chat.completions.create \
-#          --model gpt-4o-mini \
-#          --messages "$(cat my_prompt.md)"
+⸻
+
+## 🧠 10段階プロンプト構造とは？
+
+```markdown
+| 段階 | 意味 | 目的 |
+| --- | --- | --- |
+| 1 | Goal | 最終目的を定義する |
+| 2 | Context | 前提・状況を明示 |
+| 3 | Constraints | 制約条件を整理 |
+| 4 | Input | 対象テキストやデータを指定 |
+| 5 | Process | Why→How→What整列 |
+| 6 | Format | 出力形式を指定 |
+| 7 | Rubric | 評価基準を定義 |
+| 8 | Output | 構造化結果を出力 |
+| 9 | Feedback | 改善点を抽出 |
+| 10 | Next Action | 実行タスクを提示 |
 ```
 
-> **GitHub リポジトリを RAG にする場合**
-> Qdrant や FAISS でベクトル DB を構築し、`<Resource name="retrieval_api">` に検索エンドポイントを指定するだけでテンプレートが自動的にリポジトリを参照します。
+この10段階を踏むことで、<br>
+「プロンプト＝指示」から「プロンプト＝設計」へと進化する。
 
----
+⸻
 
-## ライセンス
+## 💡 各テンプレの特徴
 
-本プロジェクトは **MIT License** の下で提供されています。詳細は `LICENSE` ファイルをご覧ください。
+```markdown
+| テンプレート | 主な用途 | 特徴 |
+| --- | --- | --- |
+| gpt-10step-template.md | ChatGPT用 | フル構造・最も再現性高い |
+| claude-10step-template.md | Claude用 | 出力暴走防止・トークン制限あり |
+| cursor-10step-template.mdc | Cursor | STRUCTUREモード対応、自動整列可能 |
+```
+
+⸻
+
+## 🧰 LICENSE
+
+このテンプレートは MIT License￼ で提供されています。
+商用利用・改変・再配布すべて自由。クレジット表記のみ残してください。
+
+⸻
+
+## ✨ Author
+
+Akira Hayakawa (早川 明良)<br>
+	•	[GitHub](https://github.com/ak1ra)￼<br>
+	•	[Notion Portfolio](https://www.notion.com/ja/@ak1ra)￼
+
+⸻
+
+🔁 更新履歴
+	•	2025-11-05：/templates/ 追加（GPT / Claude / Cursor / Notion 向け）
+	•	2025-10-24：初期版公開（10段階プロンプトテンプレ構造）
+
+⸻
+
+🔥 鬼教官コメント
+
+Forkよりも「Use this template」で使え。<br>
+コピーした瞬間から、君の文脈が整列を始める。
+
+⸻
+
+✅ ファイル配置（最終確認）
+
+```
+genai-10step-prompt-framework/
+│
+├── README.md              ← このファイル
+├── LICENSE
+│
+└── templates/
+    ├── gpt-10step-template.md
+    ├── claude-10step-template.md
+    └──cursor-10step-template.mdc
+```
+
+⸻
