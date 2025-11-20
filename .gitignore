@@ -1,0 +1,11 @@
+# Examples directory - not tracked
+examples/
+
+# Common ignore patterns
+*.pyc
+__pycache__/
+*.log
+.DS_Store
+.env
+node_modules/
+
