@@ -57,13 +57,12 @@ GPT / Claude / Gemini / Cursor 向けの即利用版を /templates/ に収録。
 
 ## 💡 各テンプレの特徴
 
-```markdown
 | テンプレート | 主な用途 | 特徴 |
 | --- | --- | --- |
 | gpt-10step-template.md | ChatGPT用 | フル構造・最も再現性高い |
+| gemini-10step-template.md | Gemini用 | フル構造・最も再現性高い |
 | claude-10step-template.md | Claude用 | 出力暴走防止・トークン制限あり |
 | cursor-10step-template.mdc | Cursor | STRUCTUREモード対応、自動整列可能 |
-```
 
 ⸻
 
