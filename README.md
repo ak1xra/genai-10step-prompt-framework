@@ -1,12 +1,8 @@
-⸻
-
 # 🧩 GenAI Prompt Template — 10段階構造テンプレ集
 
 「平文を整列せよ。」<br>
 コンテキストエンジニアリングを最短で学び、実務で使うためのプロンプトテンプレート集。<br>
 GPT / Claude / Gemini / Cursor 向けの即利用版を /templates/ に収録。
-
-⸻
 
 ## 🚀 Quick Start
 
@@ -22,8 +18,6 @@ GPT / Claude / Gemini / Cursor 向けの即利用版を /templates/ に収録。
 └── cursor-10step-template.mdc   # Cursor用・STRUCTUREモード
 ```
 
-⸻
-
 ## 2️⃣ 使い方（GPT例）
 
 1. ChatGPTを開く
@@ -32,8 +26,6 @@ GPT / Claude / Gemini / Cursor 向けの即利用版を /templates/ に収録。
 
 ※推奨モデル: GPT-4 / GPT-5
 ※ClaudeやCursorでは、該当ファイルをそのまま読み込めばOK。
-
-⸻
 
 ## 🧠 10段階プロンプト構造とは？
 
@@ -53,8 +45,6 @@ GPT / Claude / Gemini / Cursor 向けの即利用版を /templates/ に収録。
 この10段階を踏むことで、<br>
 「プロンプト＝指示」から「プロンプト＝設計」へと進化する。
 
-⸻
-
 ## 💡 各テンプレの特徴
 
 | テンプレート | 主な用途 | 特徴 |
@@ -64,14 +54,10 @@ GPT / Claude / Gemini / Cursor 向けの即利用版を /templates/ に収録。
 | claude-10step-template.md | Claude用 | 出力暴走防止・トークン制限あり |
 | cursor-10step-template.mdc | Cursor | STRUCTUREモード対応、自動整列可能 |
 
-⸻
-
 ## 🧰 LICENSE
 
 このテンプレートは [MIT License](LICENSE)￼ で提供されています。
 商用利用・改変・再配布すべて自由。クレジット表記のみ残してください。
-
-⸻
 
 ## ✨ Author
 
@@ -82,7 +68,8 @@ AK1RA<br>
 ⸻
 
 🔁 更新履歴
-	•	2025-11-05：/templates/ 追加（GPT / Claude / Cursor / Notion 向け）
+	•	2025-12-10：/templates/ 追加（Gemini）
+	•	2025-11-05：/templates/ 追加（GPT / Claude / Cursor）
 	•	2025-10-24：初期版公開（10段階プロンプトテンプレ構造）
 
 ⸻
