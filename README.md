@@ -4,7 +4,7 @@
 
 「平文を整列せよ。」<br>
 コンテキストエンジニアリングを最短で学び、実務で使うためのプロンプトテンプレート集。<br>
-GPT / Claude / Cursor 向けの即利用版を /templates/ に収録。
+GPT / Claude / Gemini / Cursor 向けの即利用版を /templates/ に収録。
 
 ⸻
 
