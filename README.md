@@ -18,6 +18,7 @@ GPT / Claude / Cursor 向けの即利用版を /templates/ に収録。
 /templates/
 ├── gpt-10step-template.md       # ChatGPT用・完全構造化版
 ├── claude-10step-template.md    # Claude用・出力制御版
+├── gemini-10step-template.md    # Gemini用・完全構造化版
 └── cursor-10step-template.mdc   # Cursor用・STRUCTUREモード
 ```
 
