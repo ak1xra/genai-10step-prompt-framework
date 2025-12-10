@@ -69,7 +69,7 @@ GPT / Claude / Gemini / Cursor 向けの即利用版を /templates/ に収録。
 
 ## 🧰 LICENSE
 
-このテンプレートは MIT License￼ で提供されています。
+このテンプレートは [MIT License](LICENSE)￼ で提供されています。
 商用利用・改変・再配布すべて自由。クレジット表記のみ残してください。
 
 ⸻
