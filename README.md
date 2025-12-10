@@ -37,7 +37,6 @@ GPT / Claude / Gemini / Cursor 向けの即利用版を /templates/ に収録。
 
 ## 🧠 10段階プロンプト構造とは？
 
-```markdown
 | 段階 | 意味 | 目的 |
 | --- | --- | --- |
 | 1 | Goal | 最終目的を定義する |
@@ -50,7 +49,6 @@ GPT / Claude / Gemini / Cursor 向けの即利用版を /templates/ に収録。
 | 8 | Output | 構造化結果を出力 |
 | 9 | Feedback | 改善点を抽出 |
 | 10 | Next Action | 実行タスクを提示 |
-```
 
 この10段階を踏むことで、<br>
 「プロンプト＝指示」から「プロンプト＝設計」へと進化する。
