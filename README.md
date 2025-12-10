@@ -78,7 +78,7 @@ GPT / Claude / Cursor 向けの即利用版を /templates/ に収録。
 
 ## ✨ Author
 
-Akira Hayakawa (早川 明良)<br>
+AK1RA<br>
 	•	[GitHub](https://github.com/ak1ra)￼<br>
 	•	[Notion Portfolio](https://www.notion.com/ja/@ak1ra)￼
 
